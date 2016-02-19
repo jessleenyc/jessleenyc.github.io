@@ -74,9 +74,9 @@ $( document ).ready(function() {
 
   $('#snapmenu').on('click', popOutFunc);
 
-  $(function() {
-    FastClick.attach(document.body);
-});
+//   $(function() {
+//     FastClick.attach(document.body);
+// });
 
 
 });
