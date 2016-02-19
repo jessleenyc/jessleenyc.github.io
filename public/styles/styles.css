@@ -160,7 +160,9 @@ h4 {
   padding-top: 3%;
 }
 
+
 @media (max-width: 499px) {
+  
   #contact h1 {
     max-width: 100%;
   }
