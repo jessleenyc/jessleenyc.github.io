@@ -2,12 +2,12 @@ $( document ).ready(function() {
   // Initialize collapse button
   $(".button-collapse").sideNav();
 
-  // fluidvids.init({
-  //   selector: ['iframe', 'object'], // runs querySelectorAll()
-  //   players: ['player.vimeo.com'] // players to support
-  // });
+  fluidvids.init({
+    selector: ['iframe', 'object'], // runs querySelectorAll()
+    players: ['player.vimeo.com'] // players to support
+  });
 
-  // fluidvids.render();
+  fluidvids.render();
 
   //change text
   var text = [
@@ -74,6 +74,9 @@ $( document ).ready(function() {
 
   $('#snapmenu').on('click', popOutFunc);
 
+  $(function() {
+    FastClick.attach(document.body);
+});
 
 
 });
